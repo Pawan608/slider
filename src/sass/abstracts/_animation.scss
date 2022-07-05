@@ -1,0 +1,42 @@
+@keyframes slideCentertoLeft {
+  50%,
+  100% {
+    transform: translateX(-60%) scaleX(0.25) scaleY(0.5);
+    transition: all 0.25s;
+  }
+}
+@keyframes slidetoLeft {
+  50%,
+  100% {
+    transform: translateX(-100%) scaleY(0.5);
+    transition: all 0.25s;
+  }
+}
+@keyframes addNewCenter {
+  50%,
+  100% {
+    transform: translateX(-200%) scaleY(1) scaleX(4);
+    transition: all 0.25s;
+  }
+}
+@keyframes slideCentertoRight {
+  50%,
+  100% {
+    transform: translateX(60%) scaleX(0.25) scaleY(0.5);
+    transition: all 0.25s;
+  }
+}
+@keyframes slidetoRight {
+  50%,
+  100% {
+    transform: translateX(100%) scaleY(0.5);
+    transition: all 0.25s;
+  }
+}
+@keyframes addNewCentertoRight {
+  50%,
+  100% {
+    transform: translateX(200%) scaleY(1) scaleX(4);
+    transition: all 0.25s;
+  }
+}

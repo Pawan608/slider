@@ -1,0 +1,40 @@
+.btn {
+  &,
+  &:link,
+  &:visited {
+    cursor: pointer;
+    transition: all 0.25s;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    font-size: 2rem;
+  }
+
+  &--blue {
+    color: rgb(78, 149, 248);
+    &:hover {
+      color: $color-primary-light;
+    }
+    &:active {
+      color: $color-primary-light;
+      transform: translateY(1rem);
+    }
+  }
+  &__navigation {
+    margin-top: 10rem;
+    margin-left: 2rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 10px 1px rgb(180, 170, 170);
+    background-color: $color-primary;
+    font-weight: bold;
+    &:active {
+      transform: translateY(1rem);
+      box-shadow: 5px 5px 10px 1px rgb(70, 68, 68);
+    }
+  }
+}

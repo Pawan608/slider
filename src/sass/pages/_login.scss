@@ -1,0 +1,37 @@
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(2px);
+  background-color: rgb(244, 233, 233);
+}
+.login__container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 45rem;
+  width: 80rem;
+  background-color: white;
+  border-radius: 2rem;
+  box-shadow: 10px 10px 10px 1px rgb(180, 170, 170);
+  background-image: linear-gradient(
+      105deg,
+      rgba(white, 0.9) 0%,
+      rgba(white, 0.9) 50%,
+      transparent 50%
+    ),
+    url(./img/login_img.jpg);
+  background-size: cover;
+  display: flex;
+  &__left {
+    flex-grow: 1;
+    text-align: center;
+  }
+  &__left .heading__primary {
+    transform: translateX(-20%);
+  }
+  &__right {
+    flex-grow: 1;
+  }
+}
